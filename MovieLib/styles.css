@@ -25,11 +25,11 @@ header{
     border-radius: 50px;
     font-family: inherit;
     font-size: 1rem;
-    padding: 0.5rem 1 rem;
+    padding: 0.5rem 1rem;
     color: white;
 }
 #search::placeholder{
-    color: rgb(172, 84, 84);
+    color: #7378c5;
 }
 #search:focus{
     outline: none;
@@ -39,6 +39,7 @@ header{
 main{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .movie{
